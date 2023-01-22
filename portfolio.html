@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <!-- Fonts -->
+    <!--fonts-->
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
@@ -15,16 +15,17 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css"
     />
-    <!-- Custom styles-->
+    <!--custom styles-->
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
+
   <body>
     <!--Header-->
     <header class="header">
-      <a class="logo" href="./index.html"
-        >web<span class="logo-dark">studio</span></a
-      >
-      <div class="">
+      <div class="header-container container">
+        <a class="logo" href="./index.html"
+          >web<span class="logo-dark">studio</span></a
+        >
         <nav class="navigation">
           <ul class="navigation-list">
             <li class="navigation-item">
@@ -38,46 +39,48 @@
             </li>
           </ul>
         </nav>
+        <div class="contact-box">
+          <ul class="contact-list">
+            <li class="contact-item">
+              <a class="contact-link" href="mailto:info@devstudio.com"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li class="contacts-item">
+              <a class="contact-link" href="tel:+110001111111"
+                >+11 (000) 111-11-11</a
+              >
+            </li>
+          </ul>
+        </div>
       </div>
-      <ul class="contacts-list">
-        <li class="contacts-item">
-          <a class="contacts-link" href="mailto:info@devstudio.com"
-            >info@devstudio.com</a
-          >
-        </li>
-        <li class="contacts-item">
-          <a class="contacts-link" href="tel:+110001111111"
-            >+11 (000) 111-11-11</a
-          >
-        </li>
-      </ul>
     </header>
 
     <!--All-->
     <main>
       <!--buttons -->
-      <section class="portfolio">
-        <h1 hidden class="heading-primary">portfolio</h1>
-        <ul class="btn-box">
-          <li class="btn-list">
+      <section class="partfolio">
+        <h1 hidden class="heading-primary visually-hidden">portfolio</h1>
+        <ul class="filter">
+          <li class="filer-list">
             <button type="button" class="btn btn-light">All</button>
           </li>
-          <li class="btn-list">
+          <li class="filter-list">
             <button type="button" class="btn btn-light">Web Site</button>
           </li>
-          <li class="btn-list">
+          <li class="filter-list">
             <button type="button" class="btn btn-light">App</button>
           </li>
-          <li class="btn-list">
+          <li class="filter-list">
             <button type="button" class="btn btn-light">Design</button>
           </li>
-          <li class="btn-list">
+          <li class="filter-list">
             <button type="button" class="btn btn-light">Marketing</button>
           </li>
         </ul>
 
         <!--Partfolio-->
-        <div class="partfolio-box">
+        <div class="container">
           <ul class="partfolio-list">
             <li class="portfolio-item">
               <a href="#"
@@ -87,10 +90,11 @@
                   width="360"
                   height="300"
                   class="portfolio-img"
-                />
+              /></a>
+              <div class="partfolio-wrapper">
                 <h2 class="heading-tertiary">Banking App Interface Concept</h2>
-                <p class="paragraph">App</p></a
-              >
+                <p class="paragraph">App</p>
+              </div>
             </li>
             <li class="portfolio-item">
               <a href="#"
@@ -100,10 +104,11 @@
                   width="360"
                   height="300"
                   class="portfolio-img"
-                />
+              /></a>
+              <div class="partfolio-wrapper">
                 <h2 class="heading-tertiary">Cashless Payment</h2>
-                <p class="paragraph">Marketing</p></a
-              >
+                <p class="paragraph">Marketing</p>
+              </div>
             </li>
             <li class="portfolio-item">
               <a href="#"
@@ -113,10 +118,11 @@
                   width="360"
                   height="300"
                   class="portfolio-img"
-                />
+              /></a>
+              <div class="partfolio-wrapper">
                 <h2 class="heading-tertiary">Meditaion App</h2>
-                <p class="paragraph">App</p></a
-              >
+                <p class="paragraph">App</p>
+              </div>
             </li>
             <li class="portfolio-item">
               <a href="#"
@@ -126,10 +132,11 @@
                   width="360"
                   height="300"
                   class="portfolio-img"
-                />
+              /></a>
+              <div class="partfolio-wrapper">
                 <h2 class="heading-tertiary">Taxi Service</h2>
-                <p class="paragraph">Marketing</p></a
-              >
+                <p class="paragraph">Marketing</p>
+              </div>
             </li>
             <li class="portfolio-item">
               <a href="#"
@@ -139,10 +146,11 @@
                   width="360"
                   height="300"
                   class="portfolio-img"
-                />
+              /></a>
+              <div class="partfolio-wrapper">
                 <h2 class="heading-tertiary">Screen Illustrations</h2>
-                <p class="paragraph">Design</p></a
-              >
+                <p class="paragraph">Design</p>
+              </div>
             </li>
             <li class="portfolio-item">
               <a href="#"
@@ -152,10 +160,11 @@
                   width="360"
                   height="300"
                   class="portfolio-img"
-                />
+              /></a>
+              <div class="partfolio-wrapper">
                 <h2 class="heading-tertiary">Online Courses</h2>
-                <p class="paragraph">Marketing</p></a
-              >
+                <p class="paragraph">Marketing</p>
+              </div>
             </li>
             <li class="portfolio-item">
               <a href="#"
@@ -165,10 +174,11 @@
                   width="360"
                   height="300"
                   class="portfolio-img"
-                />
+              /></a>
+              <div class="partfolio-wrapper">
                 <h2 class="heading-tertiary">Instagram Stories Concept</h2>
-                <p class="paragraph">Design</p></a
-              >
+                <p class="paragraph">Design</p>
+              </div>
             </li>
             <li class="portfolio-item">
               <a href="#"
@@ -178,10 +188,11 @@
                   width="360"
                   height="300"
                   class="portfolio-img"
-                />
+              /></a>
+              <div class="partfolio-wrapper">
                 <h2 class="heading-tertiary">Organic Food</h2>
-                <p class="paragraph">Web Site</p></a
-              >
+                <p class="paragraph">Web Site</p>
+              </div>
             </li>
             <li class="portfolio-item">
               <a href="#"
@@ -191,10 +202,11 @@
                   width="360"
                   height="300"
                   class="portfolio-img"
-                />
+              /></a>
+              <div class="partfolio-wrapper">
                 <h2 class="heading-tertiary">Fresh Coffee</h2>
-                <p class="paragraph">Web Site</p></a
-              >
+                <p class="paragraph">Web Site</p>
+              </div>
             </li>
           </ul>
         </div>
