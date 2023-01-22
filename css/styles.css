@@ -48,8 +48,8 @@ h6 {
     width: 1128px;
     margin-left: auto;
     margin-right: auto;
-    /*utline: 2px solid red;
-    outline-offset: -2px;*/
+    /* outline: 2px solid red;
+    outline-offset: -2px; */
 }
 .card-set {
 display: flex;
@@ -101,7 +101,9 @@ gap: var(--indent);
     padding-top: 8px;
     margin: 0 0;
 }
-
+.section {
+    padding: 120px 0;
+}
 
 /*header*/
 
@@ -196,7 +198,7 @@ gap: var(--indent);
     align-items: center;
     text-align: center;
     padding: 188px 0;
-    margin-bottom: 120px;
+    /* margin-bottom: 120px; */
 }
 
 
@@ -237,11 +239,11 @@ gap: var(--indent);
 /* sevtion about*/
 
 .about {
-    margin-bottom: 120px;
+        padding-bottom: 0;
+    /* margin-bottom: 120px; */
 }
 .about-list {
     --items: 4;
-
 }
 .about-item {
 
@@ -254,7 +256,7 @@ gap: var(--indent);
 
 /* section doing*/
 .doing {
-    margin-bottom: 120px;
+    /* margin-bottom: 120px; */
 }
 .doing-list {
     --items: 3;
@@ -264,7 +266,7 @@ gap: var(--indent);
 /*Team*/
 .team {
     background: var(--light-color);
-    padding: 120px 0;
+    /* padding: 120px 0; */
 }
 .team-list {
     --items: 4;
@@ -286,12 +288,10 @@ gap: var(--indent);
 
 .filter {
     display: flex;
-    flex-direction: row;
     justify-content: center;
-    align-items: flex-start;
     gap: var(--indent);
-    margin-top: 96px;
-    margin-bottom: 72px;
+    padding-top: 96px;
+    padding-bottom: 72px;
 }
 
 .btn-light {
@@ -311,7 +311,8 @@ gap: var(--indent);
 
 /*Partfolio BOX*/
 .partfolio {
-    margin-bottom: 120px;
+    padding-top: 0;
+    /* margin-bottom: 120px; */
 }
 .partfolio-list {
     display: flex;
