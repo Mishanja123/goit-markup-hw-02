@@ -185,7 +185,7 @@ gap: var(--indent);
 
 
 
-/*Order*/
+/*Order section*/
 
 .order{
     background: #2E2F42;
@@ -198,7 +198,6 @@ gap: var(--indent);
     align-items: center;
     text-align: center;
     padding: 188px 0;
-    /* margin-bottom: 120px; */
 }
 
 
@@ -244,9 +243,6 @@ gap: var(--indent);
 }
 .about-list {
     --items: 4;
-}
-.about-item {
-
 }
 
 
@@ -347,9 +343,6 @@ gap: var(--indent);
     padding-left: 156px;
 }
 
-.footer-box {
-
-}
 
 /*Logo Footer*/
 .logo-light {
